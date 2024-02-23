@@ -136,6 +136,11 @@ a {
 
 }
 
+#button-home {
+    background-color: #ffdede;
+    color: #df6382;
+}
+
 #button-about-me:hover {
     background-color: #ffdede;
     color: #df6382;
@@ -151,3 +156,4 @@ body {
     margin: 0px;
     padding: 0px;
 }
+

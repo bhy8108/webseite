@@ -50,7 +50,7 @@ padding-bottom: 130px;
     padding: 7px 0;
 }
 
-#button-home.active, #button-about-me.active, #button-lessons.active {
+.active, #button-about-me.active, #button-lessons.active {
     background-color: #ffdede;
     color: #df6382
 }

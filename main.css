@@ -1,0 +1,80 @@
+h1 {
+    color: #FB6F92; 
+    font-style: Italic; 
+    font-size: 64px;        /*Immer die Hälfte*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+            
+}
+
+.flex {
+    display: flex;
+    
+    align-items: center;
+}
+
+.flex-left {
+    justify-content: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+#main {
+padding-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+background-color: #ffe5ec;
+padding-bottom: 130px;
+
+}
+
+#button-home, #button-about-me, #button-lessons {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: #ffffff;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 3px #b6b1b1;
+    text-shadow: 1px 2px #b6b1b1;  
+    padding: 7px 0;
+}
+
+#button-home.active, #button-about-me.active, #button-lessons.active {
+    background-color: #ffdede;
+    color: #df6382
+}
+
+
+#button-home {
+    margin-right: 10px;
+    background-color:#ffffff ;
+    color:#FB6F92; 
+}
+
+
+#button-about-me {
+    text-decoration: none;
+    background-color:#ffffff ;
+    color:#FB6F92; 
+    margin-right: 10px; 
+
+}
+
+#button-lessons {
+    background-color:#ffffff ;
+    color:#FB6F92;  
+    text-decoration: none;
+}
+
+
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+
+}
